@@ -7,6 +7,16 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## How to Install/clone in your local
+
+    git clone https://github.com/FadlyIGP/RequirementCase.git
+    copy .envexample file
+    setup database name in .env file
+    composer install
+    php artisan key:generate
+    php artisan migrate
+    
+    
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
